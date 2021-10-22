@@ -15,10 +15,11 @@ const Login = () => {
     splChar: null,
   });
   //regExp
-  const regexUser = /^[a-zA-Z0-9._]*$/;
-  const isNumberRegx = /\d/;
-  const specialCharacterRegx = /[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/;
-  const isUppercase = /[A-Z\s]+/;
+
+  const regexUser = /^[a-zA-Z0-9._]*$/; //eslint-disable-line
+  const isNumberRegx = /\d/; //eslint-disable-line
+  const specialCharacterRegx = /[ !@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/; //eslint-disable-line
+  const isUppercase = /[A-Z\s]+/; //eslint-disable-line
 
   const userHandler = (user) => {
     setUser(user);
